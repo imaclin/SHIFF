@@ -17,7 +17,7 @@ const MILESTONES = [
     side: "right" as const,
     dotColor: "bg-[var(--color-foreground)]/30",
     yearColor: "text-[var(--color-foreground)]",
-    event: "The first gram changes hands. Dale Shiffman finds his way into the Pirates' inner circle — and discovers a faster route to stay there.",
+    event: "The first gram changes hands. Dale Shiffman finds his way into the Pirates' inner circle and discovers a faster route to stay there.",
   },
   {
     year: "1983",
@@ -38,7 +38,7 @@ const MILESTONES = [
     side: "left" as const,
     dotColor: "bg-red-600",
     yearColor: "text-red-500",
-    event: "Kevin wears the wire. Dale is arrested. The trial begins — 20+ players called to testify, the sports world paralyzed. Seven fans pay the price.",
+    event: "Kevin wears the wire. Dale is arrested. The trial begins: 20+ players called to testify, the sports world paralyzed. Seven fans pay the price.",
   },
 ] as const;
 
@@ -62,7 +62,7 @@ export function TheArc() {
 
         {/* Timeline */}
         <div className="relative">
-          {/* Spine — fades from gold to red */}
+          {/* Spine: fades from gold to red */}
           <div
             className="absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2"
             style={{

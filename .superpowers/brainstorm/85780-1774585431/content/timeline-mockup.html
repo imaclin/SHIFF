@@ -1,0 +1,113 @@
+<h2>Timeline Section — Mockup</h2>
+<p class="subtitle">1979 → 1985. The rise and the crash. Two layout approaches.</p>
+
+<div class="split" style="gap:24px; align-items:flex-start;">
+
+  <!-- Option A: Horizontal with center spine -->
+  <div class="mockup" data-choice="a" onclick="toggleSelect(this)" style="cursor:pointer; flex:1;">
+    <div class="mockup-header">A — Vertical spine, alternating sides</div>
+    <div class="mockup-body" style="background:#0a0a0a; padding:32px 20px; position:relative;">
+      <div style="font-size:10px; text-transform:uppercase; letter-spacing:.2em; color:#FDB827; border:1px solid #FDB827; display:inline-block; padding:3px 10px; margin-bottom:28px;">The Arc</div>
+
+      <!-- Spine -->
+      <div style="position:relative; padding-left:50%;">
+        <div style="position:absolute; left:50%; top:0; bottom:0; width:1px; background:linear-gradient(to bottom, #FDB827, #2a2a2a); transform:translateX(-50%);"></div>
+      </div>
+
+      <div style="position:relative;">
+        <!-- Center line -->
+        <div style="position:absolute; left:50%; top:0; bottom:0; width:1px; background:linear-gradient(to bottom, #FDB827 0%, #444 60%, #2a2a2a 100%);"></div>
+
+        <!-- Items alternating left/right -->
+        <div style="display:flex; justify-content:flex-end; padding-right:calc(50% + 20px); margin-bottom:20px; position:relative;">
+          <div style="position:absolute; right:calc(50% - 5px); top:6px; width:10px; height:10px; border-radius:50%; background:#FDB827; border:2px solid #FDB827;"></div>
+          <div style="text-align:right;">
+            <div style="font-size:18px; font-weight:900; color:#FDB827;">1979</div>
+            <div style="font-size:11px; color:#888; max-width:160px;">Pirates win the World Series. Kevin Koch debuts as the first Pirate Parrot.</div>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:flex-start; padding-left:calc(50% + 20px); margin-bottom:20px; position:relative;">
+          <div style="position:absolute; left:calc(50% - 5px); top:6px; width:10px; height:10px; border-radius:50%; background:#fff; border:2px solid #444;"></div>
+          <div>
+            <div style="font-size:18px; font-weight:900; color:#fff;">1980</div>
+            <div style="font-size:11px; color:#888; max-width:160px;">The first gram changes hands. Dale Shiffman finds his way in.</div>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; padding-right:calc(50% + 20px); margin-bottom:20px; position:relative;">
+          <div style="position:absolute; right:calc(50% - 5px); top:6px; width:10px; height:10px; border-radius:50%; background:#fff; border:2px solid #444;"></div>
+          <div style="text-align:right;">
+            <div style="font-size:18px; font-weight:900; color:#fff;">1983</div>
+            <div style="font-size:11px; color:#888; max-width:160px;">Connelly arrives in Miami with $40k cash. Two kilos. The operation goes national.</div>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:flex-start; padding-left:calc(50% + 20px); margin-bottom:20px; position:relative;">
+          <div style="position:absolute; left:calc(50% - 5px); top:6px; width:10px; height:10px; border-radius:50%; background:#fff; border:2px solid #444;"></div>
+          <div>
+            <div style="font-size:18px; font-weight:900; color:#fff;">1984</div>
+            <div style="font-size:11px; color:#888; max-width:160px;">Rod Scurry collapses in the bullpen. The FBI opens its investigation.</div>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; padding-right:calc(50% + 20px); margin-bottom:20px; position:relative;">
+          <div style="position:absolute; right:calc(50% - 5px); top:6px; width:10px; height:10px; border-radius:50%; background:#c00; border:2px solid #c00;"></div>
+          <div style="text-align:right;">
+            <div style="font-size:18px; font-weight:900; color:#c00;">1985</div>
+            <div style="font-size:11px; color:#888; max-width:160px;">Kevin wears the wire. Dale is arrested. The trial begins. Baseball holds its breath.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Option B: Horizontal cards with year as hero -->
+  <div class="mockup" data-choice="b" onclick="toggleSelect(this)" style="cursor:pointer; flex:1;">
+    <div class="mockup-header">B — Horizontal scroll, chapter cards</div>
+    <div class="mockup-body" style="background:#0a0a0a; padding:32px 20px;">
+      <div style="font-size:10px; text-transform:uppercase; letter-spacing:.2em; color:#FDB827; border:1px solid #FDB827; display:inline-block; padding:3px 10px; margin-bottom:28px;">The Arc</div>
+      <!-- Connecting line -->
+      <div style="position:relative; margin-bottom:16px;">
+        <div style="position:absolute; top:22px; left:0; right:0; height:1px; background:linear-gradient(to right, #FDB827, #444, #c00);"></div>
+        <div style="display:flex; gap:8px; overflow:hidden;">
+
+          <div style="flex:0 0 auto; width:110px; background:#141414; border:1px solid #2a2a2a; padding:14px 12px; position:relative;">
+            <div style="width:12px; height:12px; border-radius:50%; background:#FDB827; margin-bottom:10px;"></div>
+            <div style="font-size:22px; font-weight:900; color:#FDB827; line-height:1;">1979</div>
+            <div style="font-size:10px; color:#666; margin-top:6px; line-height:1.4;">World Series. The Parrot is born.</div>
+          </div>
+
+          <div style="flex:0 0 auto; width:110px; background:#141414; border:1px solid #2a2a2a; padding:14px 12px; position:relative;">
+            <div style="width:12px; height:12px; border-radius:50%; background:#888; margin-bottom:10px;"></div>
+            <div style="font-size:22px; font-weight:900; color:#fff; line-height:1;">1980</div>
+            <div style="font-size:10px; color:#666; margin-top:6px; line-height:1.4;">First deal. Dale finds his in.</div>
+          </div>
+
+          <div style="flex:0 0 auto; width:110px; background:#141414; border:1px solid #2a2a2a; padding:14px 12px; position:relative;">
+            <div style="width:12px; height:12px; border-radius:50%; background:#888; margin-bottom:10px;"></div>
+            <div style="font-size:22px; font-weight:900; color:#fff; line-height:1;">1983</div>
+            <div style="font-size:10px; color:#666; margin-top:6px; line-height:1.4;">Miami. $40k cash. It goes national.</div>
+          </div>
+
+          <div style="flex:0 0 auto; width:110px; background:#141414; border:1px solid #444; padding:14px 12px; position:relative;">
+            <div style="width:12px; height:12px; border-radius:50%; background:#888; margin-bottom:10px;"></div>
+            <div style="font-size:22px; font-weight:900; color:#fff; line-height:1;">1984</div>
+            <div style="font-size:10px; color:#666; margin-top:6px; line-height:1.4;">Scurry collapses. FBI opens case.</div>
+          </div>
+
+          <div style="flex:0 0 auto; width:110px; background:#1a0000; border:1px solid #c00; padding:14px 12px; position:relative;">
+            <div style="width:12px; height:12px; border-radius:50%; background:#c00; margin-bottom:10px;"></div>
+            <div style="font-size:22px; font-weight:900; color:#c00; line-height:1;">1985</div>
+            <div style="font-size:10px; color:#888; margin-top:6px; line-height:1.4;">The wire. The arrest. The trial.</div>
+          </div>
+
+        </div>
+      </div>
+      <div style="font-size:11px; color:#444; font-style:italic; margin-top:8px;">← swipe to scroll on mobile</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:16px;">A scrolls vertically with the page. B is a horizontal card strip. Click your preference.</p>

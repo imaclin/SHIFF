@@ -16,6 +16,10 @@ const body = Inter({
 export const metadata: Metadata = {
   title: "SHIFF",
   description: "The story of the Pittsburgh Cocaine Seven. A scripted limited series.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "SHIFF",
     description: "The true story of the Pittsburgh Cocaine Seven.",

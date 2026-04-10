@@ -19,7 +19,7 @@ export function TheBetrayal() {
         transition={{ duration: 0.8 }}
         className="grid grid-cols-2 h-64 md:h-96"
       >
-        {/* Kevin — left */}
+        {/* Kevin - left */}
         <div className="relative overflow-hidden">
           <Image
             src="/images/koch.jpg"
@@ -41,7 +41,7 @@ export function TheBetrayal() {
           </div>
         </div>
 
-        {/* Dale — right */}
+        {/* Dale - right */}
         <div className="relative overflow-hidden">
           <Image
             src="/images/shiffman.jpg"
@@ -77,7 +77,7 @@ export function TheBetrayal() {
           The next day was worse.
         </p>
         <p className="text-[var(--color-foreground)]/65 text-lg leading-relaxed font-body max-w-2xl">
-          When he found out it was Kevin who wore the wire — Kevin who gave the testimony that sealed his fate — his best friend since childhood. They hadn&apos;t spoken for decades. Until the cameras started rolling.
+          When he found out it was Kevin who wore the wire. Kevin who gave the testimony that sealed his fate. His best friend since childhood. They hadn&apos;t spoken for decades. Until the cameras started rolling.
         </p>
       </motion.div>
     </section>

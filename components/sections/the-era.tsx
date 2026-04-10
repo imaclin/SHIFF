@@ -34,7 +34,7 @@ export function TheEra() {
                 And thus, their fans gladly broke the law for a taste of that life.
               </p>
               <p>
-                What began as backstage access would spiral into a federal drug conspiracy stretching from Pittsburgh to Miami — and a criminal trial that rocked the foundation of American sports forever.
+                What began as backstage access would spiral into a federal drug conspiracy stretching from Pittsburgh to Miami, ending in a criminal trial that rocked the foundation of American sports forever.
               </p>
             </div>
           </div>

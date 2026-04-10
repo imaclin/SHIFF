@@ -28,7 +28,7 @@ export function Comparables({ comparables }: { comparables: Comparable[] }) {
           IN THE SPIRIT OF
         </h2>
         <p className="text-[var(--color-foreground)]/60 text-lg mb-16 font-body max-w-2xl">
-          Highly stylized, wildly popular. SHIFF is fueled by the same authenticity — a true story bigger than anything Hollywood could invent.
+          Highly stylized, wildly popular. SHIFF is fueled by the same authenticity: a true story bigger than anything Hollywood could invent.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">

@@ -20,7 +20,7 @@ export function TheNumbers() {
           <span className="stamp mb-10 block w-fit">The Injustice in Numbers</span>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[2px]">
-            {/* Top left — 111 */}
+            {/* Top left: 111 */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -31,11 +31,11 @@ export function TheNumbers() {
                 111
               </div>
               <div className="text-[var(--color-foreground)]/50 text-xs uppercase tracking-widest leading-relaxed">
-                Federal drug trafficking counts<br />against Dale Shiffman — one fan
+                Federal drug trafficking counts<br />against Dale Shiffman, one fan
               </div>
             </motion.div>
 
-            {/* Top right — 20+ */}
+            {/* Top right: 20+ */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -50,7 +50,7 @@ export function TheNumbers() {
               </div>
             </motion.div>
 
-            {/* Bottom full-width — 0 in gold */}
+            {/* Bottom full-width: 0 in gold */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
