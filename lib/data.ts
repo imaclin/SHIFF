@@ -172,16 +172,4 @@ export const CREATORS = [
     image: "/images/jake-shiffman.jpg",
     bio: "Jake Shiffman is a producer and connector whose work spans SXSW, Coachella, and NBA All-Star Weekend, as well as commercial campaigns for brands including Body Armor. His lifelong mission: bringing to screen the story of his father, Dale Shiffman, from the Pittsburgh/MLB Drug Trials.",
   },
-  {
-    name: "Brian Leavell",
-    role: "Executive Producer",
-    image: null,
-    bio: "Writer/director and head writer on A&E's Duck Dynasty, with additional credits for Discovery and Red Bull TV. After securing the rights to The Pittsburgh Cocaine Seven book, Brian spent months conducting over 20 hours of interviews with Kevin Koch and Dale Shiffman. Currently prepping his feature directorial debut, Dogs of Nowhere. Represented by The Gersh Agency.",
-  },
-  {
-    name: "Noah Rosenberg",
-    role: "Executive Producer",
-    image: null,
-    bio: "Founder of Narratively, an award-winning storytelling platform and production company. A recipient of TIME's 50 Best Websites, winner of multiple Webbys and Tellys. Narratively produces scripted and unscripted TV series and feature films with leading partners across Hollywood.",
-  },
 ];
