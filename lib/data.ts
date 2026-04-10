@@ -161,12 +161,6 @@ export const MEDIA_LINKS = [
 
 export const CREATORS = [
   {
-    name: "Algee Smith",
-    role: "Creator",
-    image: "/images/algee-smith.jpg",
-    bio: "Algee Smith can be seen in HBO's Euphoria opposite Zendaya. He relocated from Atlanta to Los Angeles in 2016 and within 30 days booked the role of Ralph Tresvant in BET's highest-rated miniseries, The New Edition Story. That role led to Detroit, earning him an NAACP Best Actor nomination, and roles in The Hate U Give and Judas and the Black Messiah opposite Daniel Kaluuya and Lakeith Stanfield.",
-  },
-  {
     name: "Jake Shiffman",
     role: "Creator / Producer",
     image: "/images/jake-shiffman.jpg",
